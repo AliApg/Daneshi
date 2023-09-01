@@ -178,13 +178,6 @@ header {
     padding: .5rem 0px;
 }
 
-/*
-.gallery {
-    display: grid;
-    grid-gap: 10px;
-    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-} */
-
 .gallery-item img {
     max-width: 100%;
     height: auto;
@@ -193,7 +186,7 @@ header {
     box-shadow: 5px 5px 5px #656565;
 }
 
-.phone {
+.contact-me {
     text-decoration: none;
     color: #000;
 }
@@ -206,13 +199,10 @@ header {
 .fa-whatsapp {
     color: #000000;
     text-shadow: 0px 0px 0px #000;
-    /* text-shadow: 0 0 .15em hsla(0, 0%, 0%, 1); */
-    /* 0 0 .01em hsla(0, 0%, 0%, 0.84); */
 }
 
 .fa-envelope {
     color: #000000;
-    /* text-shadow: 0 0 .05em hsla(0, 0%, 0%, 0.755); */
 }
 
 .icons-hover {
