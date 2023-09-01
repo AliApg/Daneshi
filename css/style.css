@@ -192,3 +192,41 @@ header {
     margin-top: 15px;
     box-shadow: 5px 5px 5px #656565;
 }
+
+.phone {
+    text-decoration: none;
+    color: #000;
+}
+
+.icons {
+    display: flex;
+    gap: 1em;
+}
+
+.fa-whatsapp {
+    color: #000000;
+    text-shadow: 0 0 .15em hsla(0, 0%, 0%, 1),
+        0 0 .05em hsla(0, 0%, 0%, 0.84);
+}
+
+.fa-envelope {
+    color: #000000;
+    text-shadow: 0 0 .12em hsla(0, 0%, 0%, 0.755);
+}
+
+.icons-hover {
+    color: #000000;
+    font-size: 1.5rem;
+    transition: transform .25s ease-in-out;
+}
+
+.icon-focus:focus {
+    border: none;
+    outline: none;
+}
+
+.icons-hover:hover,
+.icon-focus:focus>i {
+    cursor: pointer;
+    transform: scale(1.3);
+}
